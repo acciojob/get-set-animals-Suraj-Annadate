@@ -37,14 +37,7 @@ const dog = new Dog("Dog");
 console.log(dog.species); // Output: Dog
 dog.makeSound(); // Output: Some generic animal sound
 dog.bark(); // Output: woof
-Save to grepper
-In this code, we define the Animal class with a constructor that sets the species, a getter for the species property, and a makeSound() method that logs a generic animal sound.
 
-The Cat class is a subclass of Animal and extends it using the extends keyword. It has an additional method called purr().
-
-The Dog class is also a subclass of Animal and extends it. It has an additional method called bark().
-
-When you create instances of Cat and Dog, they can access methods and properties from both their class and the parent class Animal.
 
 
 
